@@ -1,0 +1,69 @@
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index:-1;
+}
+.Container{
+   background: rgba(0, 0, 0, 0.7);
+   height:100vh;
+   width:600px;
+   padding:10px;
+   position:absolute;
+   top:0%;
+   left:28%;
+   transition:translate(-50%,-50%);
+   text-align: center;
+   z-index:-1;
+}
+form{
+  margin-top:100px;
+}
+input{
+  display:block;
+  color:#fff;
+  width:580px;
+  height:50px;
+  background:rgba(0,0,0,0.3);
+  outline:none;
+  border: 1px solid rgba(0,0,0,0.5);
+  font-family:Source Sans Pro;
+  font-size: 14px;
+  font-weight:lighter;
+  margin-bottom:5px;
+  padding-left:10px;
+  border-radius:5px;
+  text-align: center;
+}
+textarea{
+  display:block;
+  color:#fff;
+  width:580px;
+  height:230px;
+  background:rgba(0,0,0,0.3);
+  outline:none;
+  border: 1px solid rgba(0,0,0,0.5);
+  font-family:Source Sans Pro;
+  font-size: 14px;
+  font-weight:lighter;
+  margin-bottom:5px;
+  padding-left:10px;
+  border-radius:5px;
+}
+select{
+  display:block;
+  color:#fff;
+  width:580px;
+  height:30px;
+  background:rgba(0,0,0,0.3);
+  outline:none;
+  border: 1px solid rgba(0,0,0,0.5);
+  font-family:Source Sans Pro;
+  font-size: 14px;
+  font-weight:lighter;
+  margin-bottom:10px;
+  padding-left:10px;
+  border-radius:5px;
+}
